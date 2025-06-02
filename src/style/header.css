@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+header{height:140px; background-color: #333; position:relative;}
+#logo_color{position:absolute; width:88px; margin:30px 0px 0px 120px;}
+header .header_wrap{width:1440px; height: 140px; margin:0 auto; position:relative;}
+header .user_menu{width: auto; position: absolute; display: flex; margin-top:30px; right:0px;}
+header .user_menu li a{margin-left: 50px; color:white; text-decoration: none;}
+#toggle{width:48px; position:absolute; top:0px; left:0px; margin:50px 0px 0px 20px; display:none; cursor: pointer;}
+#cart{width:48px; position:absolute; top:0px; left:0px; margin:50px 0px 0px 20px; display: none; cursor: pointer}
+.mobile_gnb{background-color: #000000cf; width:100%; height:100%; z-index: 100; position:fixed; top:0px; left:0px; display: none; }
+.mobile_gnb ul li{line-height: 50px; cursor: pointer;}
+.mobile_gnb ul li:hover{background-color: rgb(195, 0, 0); }
+.mobile_gnb_shop, .mobile_gnb_brand, .mobile_gnb_info, .mobile_gnb_event, .mobile_gnb_customer{color:white; text-decoration: none;}
+#close{display: none;}
+.mobile_gnb_menu{ margin-top: 80px;}
+.mobile_gnb_menu li{text-indent: 30px; font-size: 20px;  border-bottom:1px solid white;}
+.mobile_user_menu{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2열 */
+  gap: 1px; /* 요소 사이 간격 */
+  list-style: none; /* 기본 ul 스타일 제거 */
+  padding: 0;
+  width:300px;
+  position:absolute;
+  left:100px;
+}
+.mobile_user_menu li{color:white; text-align: center; border: none; background-color:#101010;}
+@media screen and (max-width: 48em) {  /* 768px = 48em */
+
+  header {
+    height: 6.25em;
+  }
+  .user_menu, .gnb{display: none !important;}
+
+  #toggle {
+    top: 0;
+    left: 0;
+    width: 3em;
+    margin: 1.875em 0 0 1.25em;
+    display: block;
+  }
+  #cart {
+    top: 0;
+    left: 25.25em;  /* 100px = 6.25em */
+    width: 3em;
+    margin: 1.875em 0 0 1.25em;
+    display: block;
+  }
+  .mobile_gnb{display:block; transition:0.3s;}
+  .qew {
+    width: 100% !important;
+    display: block;
+  }
+  #close{display:block; position:absolute; right:0px; cursor: pointer; margin: 20px 20px 0px 0px;}
+  .login_id{background-color:1px solid red;}
+}
+

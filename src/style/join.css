@@ -1,0 +1,28 @@
+@charset "utf-8";
+main{height:100%;}
+.join_form{width:300px;  margin: 30px auto; padding:30px; text-align: center; border:1px solid #494949;}
+.join_title{text-align: center; line-height: 50px; font-size: 24px; font-weight: bold;}
+.join_form input{margin: 20px 0px; width:280px;}
+.join_btn{border:none; padding:20px; width:100%; color:white; background-color: #cf1602; cursor: pointer;}
+.join_form input:focus{outline: none;}
+.join_form #username,#password1,#password2,#email,#tel{padding:10px; border:none; border-bottom:1px solid black; font-size: 16px;}
+.join_form label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.join_form label[for="agree"] {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}

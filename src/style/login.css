@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+.login_form{border: 1px solid #333; width:300px; margin: 30px auto; padding:30px;} 
+.login_form h2{font-size: 24px; font-weight: bold; text-align: center;}
+.login_form input{padding:10px; margin:10px 0px; border: none; border-bottom: 1px solid #333; font-size: 16px;} 
+.login_btn{width:100%; border:none; background-color: #cf1602; color:white; padding:10px; cursor: pointer;}

@@ -1,0 +1,16 @@
+@charset "utf-8";
+main{height:100%;}
+
+@media screen and (max-width:768px) {
+  header{height:100px;}
+  #toggle{top:0px; left:0px; width:48px; margin:30px 0px 0px 20px;}
+  .shopslide{width:100% !important;}
+  #sec3 img{width:300px;}
+  .banner_wrap{width:100% !important;}
+  .sec4_wrap{width:100% !important; flex-direction: column !important;}
+  .footer_bottom{width:100% !important;}
+  .qew{width:100% !important;}
+  main{width:100% !important;}
+  header .header_wrap{width:100%;}
+ .user_menu{display: none;}
+}

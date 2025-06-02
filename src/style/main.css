@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+#sec1 h2{display: none;}
+.gslide{width:1425px; height:500px;}
+.gslide img{width:100%; height:100%;}
+.slide2bg{ width: 100%; height: 100%; object-fit: cover;}
+  .slide2over{ position: absolute; top: 0; left: 0; width: 100%;
+height: 100%;object-fit: contain;pointer-events: none;}
+.swiper-button-prev, .swiper-button-next{z-index: 1000; }
+
+#sec2{height:700px; background-color: #f7f1e5;}
+#sec2 .shopslide{width:1200px; height:435px; }
+#sec2 .productslide{ display:flex; justify-content: space-around; margin-top:50px; width:1200px !important;}
+#sec2 .productslide img{width:300px; border-radius: 30px;}
+#sec2 .sec2_title{ font-weight: bold; text-align: center; padding: 50px; font-size: 50px; color:#494949;}
+#sec2 h2 #shop_icon{width:70px;}
+.qwe{display: flex; width:100%;}
+.info_wrap{width:50%; padding: 100px 0px 0px 20px !important;}
+.info_wrap h2{font-size: 16px; color:#676767; line-height: 50px; text-align: left !important; padding:20px 20px 0px 0px !important;  font-weight: 400 !important;}
+.info_wrap h3{font-size: 20px; padding-bottom:30px; font-weight: bold; color:#494949; }
+.img_wrap{width:50%;} 
+.price{font-size: 30px; font-weight: bold; color:#ff3c00; padding-top: 20px;}
+#sec2 #shop{padding:20px 40px; border: 1px solid #ccc; text-decoration: none; color:#494949; width:59px; text-align: center; margin: 0 auto; display: block;}
+#sec2 #shop:hover{background-color: #494949; color:white; border:1px solid #494949;}
+
+
+
+
+
+
+
+
+#sec3{height:400px;}
+#sec3 .banner_wrap{width:1170px; margin: 0 auto; display: flex;  position:relative;}
+#sec3 #left_img{width: 79px; height: 70px;}
+.sec3_left{text-align: center;  height:100%; width:50%; margin-top:70px;}
+.sec3_right{width:50%;}
+.sec3_left h3{font-size: 50px; color:#676767; font-weight: bold; margin:20px 0px;}
+.sec3_left h3 + p{font-size: 20px; line-height: 30px; margin-bottom: 30px;}
+#detail{border:1px solid #494949; color:#494949; padding:10px 30px; text-decoration: none; margin-top: 70px !important;}
+
+#sec4{height:540px; background-color: #ede9e8;}
+#sec4 h2{font-size: 50px; text-align: center; padding-top:40px; color:#494949; font-weight: bold;}
+#sec4 h3{font-size: 20px; text-align: center; padding:30px 0px; color:#494949;}
+#sec4 .sec4_wrap{width: 1200px;  margin:0 auto;  display: flex;}
+.sec4_wrap .sec4_left{width:50%; display: flex; justify-content: center;}
+.sec4_wrap .sec4_right{ width:50%; display:flex; justify-content: center;}
+.sec4_left_img{width:286px;}
+.sec4_right_img{width:286px; cursor: pointer;}
+.sec4_right_img:hover{opacity: 0.6;}
+.sec4_wrap img{width:100%;}
+
+
+#top{padding: 10px; background-color: white; border: 1px solid #333; text-align: center; position:fixed;}
